@@ -1,0 +1,56 @@
+Fly Doctrines
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+    https://creativecommons.org/licenses/by-nc/4.0/
+    Full legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+WHY THIS LICENCE, AND NOT A SOFTWARE ONE
+
+Of the 42,832,472 bytes in fly-doctrines.odmod, 42,820,374 are
+data/brain.odfly: the FlyWire connectome, packed. The mod is overwhelmingly
+somebody else's measurement of a fly, and FlyWire publishes its released data
+under CC BY-NC 4.0. Licensing the parts separately would mean a package whose
+dominant component is CC BY-NC sitting under a notice that says otherwise, so
+the whole thing takes the data's terms.
+
+It also matches the game: OpenDoctrines ships under the OpenDoctrines
+Non-Commercial License, so nothing here is more permissive than the thing it
+plugs into.
+
+CC licences are written for works rather than for software, and that is a real
+mismatch for src/*.c. It is the lesser problem. A mod that redistributes 42 MB
+of CC BY-NC data under a permissive software licence would be making a promise
+about that data which is not the author's to make.
+
+WHAT IS COVERED
+
+  data/brain.odfly, and the copy inside fly-doctrines.odmod
+      The FlyWire connectome, packed into this project's format. Not
+      originally this project's work. See ATTRIBUTION.
+
+  src/, tools/, build.sh, MANIFEST.json, README.md
+      Written for this project, offered under the same terms.
+
+ATTRIBUTION, which CC BY-NC requires
+
+The connectome:
+
+    FlyWire -- https://flywire.ai
+    Dorkenwald et al., "Neuronal wiring diagram of an adult brain",
+    Nature (2024).
+
+The model this simulation implements:
+
+    Shiu, P.K., Sterne, G.R., Spiller, N. et al. "A leaky integrate-and-fire
+    computational model based on the connectome of the entire adult
+    Drosophila brain reveals insights into sensorimotor processing",
+    Nature (2024).
+
+FlyWire's own citation guidance is at https://flywire.ai/guidelines and takes
+precedence over this paragraph if the two ever disagree.
+
+NON-COMMERCIAL
+
+CC BY-NC 4.0 permits sharing and adaptation but not commercial use. Running the
+mod, modifying it, and redistributing it are fine. Selling it, or bundling it
+into something sold, is not.

@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "com.openfly.fly-doctrines",
+  "name": "Fly Doctrines",
+  "version": "1.0.0",
+  "description": "A fruit fly's brain plays one country. 138,639 neurons and 15 million synapses of the FlyWire connectome (Shiu et al., Nature 2024), leaky integrate-and-fire, wired to the game's own decision points. ParrotZero keeps playing everyone else.",
+  "authors": [
+    "Pr1nted"
+  ],
+  "gearbox": "1.3",
+  "side": "server",
+  "modules": [
+    "Core",
+    "GameState.Read",
+    "Map",
+    "Diplomacy",
+    "Economy.Read",
+    "Neural",
+    "Neural.Decide",
+    "Assets"
+  ],
+  "limits": {
+    "memoryPages": 1024,
+    "fuelPerTurn": 2000000,
+    "fuelPerDecision": 1500000000
+  }
+}

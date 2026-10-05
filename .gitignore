@@ -1,0 +1,10 @@
+# The built package and the packed connectome are release assets, not history.
+#
+# fly-doctrines.odmod is 32 MB and data/brain.odfly is 41 MB, and both are
+# produced by build.sh from the FlyWire download. Committing them would put
+# 73 MB in every clone for ever, and a second copy with every rebuild. They
+# are attached to the GitHub release instead, which is also where the mod
+# directory's downloadUrl points.
+fly-doctrines.odmod
+data/brain.odfly
+mod.wasm
